@@ -224,6 +224,7 @@ nav ul li a{
 
 /* Popular Section end */
 
+/* footer top section start */
 
 .footer-top{
     padding: 5% 8%;
@@ -243,7 +244,6 @@ nav ul li a{
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 10px;
-
 }
 .footer-box h3{
     font-size: 25px;
@@ -260,85 +260,14 @@ nav ul li a{
     color:rgb(224, 44, 109);
     margin-right: 10px;
 }
-
-/* .footer-top .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap:1.5rem;
-    background-color: red;
+.footer-top .box-container .footer-box ul li i{
+    transition-duration: .5s;
 }
-.footer-box .box-container .footer-box h3{
-    font-size: 2.2rem;
-    color:var(--black);
-    padding:1rem 0;
+.footer-top .box-container .footer-box a:hover i{
+    padding-right: 1rem;
 }
 
-.footer-box .box-container .footer-box a{
-    display: block;
-    font-size: 1.4rem;
-    color:var(--light-color);
-    padding:1rem 0;
-}
-
-.footer-box .box-container .footer-box a i{
-    color:var(--green);
-    padding-right: .5rem;
-}
-
-.footer-box .box-container .footer-box a:hover i{
-    padding-right: 2rem;
-}
-
-.footer-box .box-container .footer-box .map{
-    width:100%;
-} */
-
-/* .footer-box .share{
-    padding:1rem 0;
-    text-align: center;
-}
-
-.footer-box .share a{
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    font-size: 2rem;
-    color:#fff;
-    background:var(--green);
-    margin:0 .3rem;
-    border-radius: 50%; 
-}
-
-.footer-box .share a:hover{
-    background:var(--black);
-}
-
-.footer-box .credit{
-    border-top: var(--border);
-    margin-top: 2rem;
-    padding:0 1rem;
-    padding-top: 2.5rem;
-    font-size: 2rem;
-    color:var(--light-color);
-    text-align: center;
-}
-
-.footer-box .credit span{
-    color:var(--green);
-} */
-
-/* .loader-container{
-    position: fixed;
-    top:0; left: 0;
-    height:100%;
-    width: 100%;
-    z-index: 10000;
-    background:#f7f7f7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
+/* footer top section end */
 
 /* footer section start */
 
@@ -383,3 +312,12 @@ footer .footer-details {
 
 
 /* footer section end */
+
+
+
+
+/* Media Queries start */
+
+
+
+/* Media Queries end */
