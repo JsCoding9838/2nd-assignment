@@ -16,7 +16,6 @@ main {
 }
 section{
     padding: 5% 8%;
-    background-color: rgb(214, 221, 214);
 }
 
 /* common styles end */
@@ -107,6 +106,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-bottom: 100px;
 }
 .section-title h2{
     font-weight: 600;
@@ -142,7 +142,7 @@ nav ul li a{
     margin-right: 10px;
     color: #FB8200;
 }
-#see-more {
+/* #see-more {
     position: absolute;
     width: 183px;
     height: 60px;
@@ -152,6 +152,13 @@ nav ul li a{
     color: #E02C6D;
     font-size: 20px;
     outline: none;
+} */
+#see-more {
+    position: absolute;
+    right: 147px;
+    bottom: 10px;
+    color: #E02C6D;
+    font-size: 22px;
 }
 #see-more #see-more-right-arrow{
     margin-left: 8px;
@@ -163,12 +170,44 @@ nav ul li a{
 
 /* footer section start */
 
-
-
-
-
-
-
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: #0A0826;
+}
+footer .footer-details {
+    height: 200px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    line-height: 2;
+    color: white;
+}
+.footer-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.social-icon ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social-icon ul li {
+    height: 25px;
+    width: 25px;
+    padding: 6px;
+    border-radius: 50px;
+    list-style: none;
+    font-size: 14px;
+    margin: 10px 7px;
+    background-color: #ffffff17;
+    
+}
+.social-icon ul li .fab{
+    color: #ffffff;
+}
 
 
 /* footer section end */
