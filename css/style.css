@@ -39,6 +39,12 @@ nav h3{
 nav .nav-title{
     align-items: center;
 }
+.menus  .fas{
+    font-size: 30px;
+}
+.menus .fab{
+    font-size: 30px;
+}
 nav ul{
     display: flex;
 }
@@ -80,14 +86,15 @@ nav ul li a{
 .banner-items .banner-img{
     width: 40%;
 }
-.banner-btn{
+.banner-btn {
     padding: 15px 30px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 25px;
-    background: #E02C6D;
+    background: rgb(224, 44, 109);
     border-radius: 41px;
-    outline: none;
-    transition: .3s;
+    transition: all 0.3s ease 0s;
+    border: none;
+    cursor: pointer;
 }
 .banner-btn:hover{
     background-color: #da7097;
@@ -159,6 +166,14 @@ nav ul li a{
     bottom: 10px;
     color: #E02C6D;
     font-size: 22px;
+    cursor: pointer;
+    transition: .3s;
+    border: none;
+    /* display: block; */
+    border: none;
+}
+#see-more:hover {
+    color:#ac0944;
 }
 #see-more #see-more-right-arrow{
     margin-left: 8px;
