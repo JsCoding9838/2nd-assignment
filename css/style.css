@@ -6,6 +6,15 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --green:#27ae60;
+    --dark-color:#219150;
+    --black:#444;
+    --light-color:#666;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --border-hover:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F8F8FF;
@@ -152,7 +161,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 .section-title h2{
     font-weight: 600;
@@ -214,6 +223,121 @@ nav ul li a{
 }
 
 /* Popular Section end */
+
+
+.footer-top{
+    padding: 5% 8%;
+}
+.footer-top-title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.footer-top .box-container{
+    display: flex;
+    justify-content: center;
+}
+.footer-box {
+    width: 230px;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.footer-box h3{
+    font-size: 25px;
+}
+.footer-box ul li{
+    list-style: none;
+    margin: 15px 0px;
+}
+.footer-box ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-box ul li .fas{
+    color:rgb(224, 44, 109);
+    margin-right: 10px;
+}
+
+/* .footer-top .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+    background-color: red;
+}
+.footer-box .box-container .footer-box h3{
+    font-size: 2.2rem;
+    color:var(--black);
+    padding:1rem 0;
+}
+
+.footer-box .box-container .footer-box a{
+    display: block;
+    font-size: 1.4rem;
+    color:var(--light-color);
+    padding:1rem 0;
+}
+
+.footer-box .box-container .footer-box a i{
+    color:var(--green);
+    padding-right: .5rem;
+}
+
+.footer-box .box-container .footer-box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer-box .box-container .footer-box .map{
+    width:100%;
+} */
+
+/* .footer-box .share{
+    padding:1rem 0;
+    text-align: center;
+}
+
+.footer-box .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#fff;
+    background:var(--green);
+    margin:0 .3rem;
+    border-radius: 50%; 
+}
+
+.footer-box .share a:hover{
+    background:var(--black);
+}
+
+.footer-box .credit{
+    border-top: var(--border);
+    margin-top: 2rem;
+    padding:0 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color:var(--light-color);
+    text-align: center;
+}
+
+.footer-box .credit span{
+    color:var(--green);
+} */
+
+/* .loader-container{
+    position: fixed;
+    top:0; left: 0;
+    height:100%;
+    width: 100%;
+    z-index: 10000;
+    background:#f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 
 
 /* footer section start */
