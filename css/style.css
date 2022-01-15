@@ -23,7 +23,6 @@ section{
 
 
 header{
-    /* width:80%; */
     padding: 0% 8%;
 }
 nav{
@@ -102,18 +101,30 @@ nav ul li a{
 }
 
 /* Popular Section start */
+
 .popular-section{
-    background-color: pink;
+    width: 80%;
+    justify-content: center;
     align-items: center;
+    position: relative;
 }
-.section-title{
+.section-title h2{
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 35px;
+    
 }
 .all-collections{
-    border: 2px solid black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 45px 20px;
+    position: relative;
+
 }
 .item-details h3{
     font-size: 1.5em;
@@ -131,8 +142,33 @@ nav ul li a{
     margin-right: 10px;
     color: #FB8200;
 }
-
-
-
+#see-more {
+    position: absolute;
+    width: 183px;
+    height: 60px;
+    right: 147px;
+    bottom: 10px;
+    padding: 15px 30px;
+    color: #E02C6D;
+    font-size: 20px;
+    outline: none;
+}
+#see-more #see-more-right-arrow{
+    margin-left: 8px;
+    font-weight: bold;
+}
 
 /* Popular Section end */
+
+
+/* footer section start */
+
+
+
+
+
+
+
+
+
+/* footer section end */
