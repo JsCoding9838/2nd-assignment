@@ -230,7 +230,7 @@ nav ul li a{
     color: #FB8200;
 }
 #see-more {
-    background-color: #F8F8FF;
+    background-color: #e6e6eb;
     position: absolute;
     right: 48px;
     bottom: -46px;
@@ -242,7 +242,8 @@ nav ul li a{
     border: none;
 }
 #see-more:hover {
-    color:#f51768;
+    color: red;
+    font-size: 22.5px;
 }
 #see-more #see-more-right-arrow{
     margin-left: 8px;
@@ -351,8 +352,6 @@ footer .footer-details {
 
 /* Media Queries start */
 
-/* mobile responsiv start */
-
 @media screen and (max-width: 425px){
     body{
         max-width: 100%;
@@ -434,10 +433,7 @@ footer .footer-details {
         margin-left: -121px;
     }
     .animated-text h3 {
-        /* color: #E02C6D; */
         font-size: 4em;
-        /* font-weight: 700;
-        line-height: 70px; */
         letter-spacing: 1px;
     }
     .banner-items .banner-details p {
@@ -512,17 +508,5 @@ footer .footer-details {
     
 }
 
-
-/* mobile responsiv end */
-
-/* tablet responsiv start */
-
-@media only screen and (max-width: 360px){
-
-    
-
-}
-
-/* tablet responsiv end */
 
 /* Media Queries end */
